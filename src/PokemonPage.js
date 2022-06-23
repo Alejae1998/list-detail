@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <h2>Current Page {page}</h2>
+      <h2>Current Page: {page}</h2>
       <div className="buttons">
         <button disabled={page <= 1} onClick={() => setPage(page - 1)}>
           Previous Page
